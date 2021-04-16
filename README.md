@@ -119,7 +119,6 @@ by `makeIco.py`:
     ...Scanned 91 icon files
     Scanning done. 91 icons included.
     $ ls -l *.ICO
-    $ ls -l *.ICO
     -rw-r--r--  1 bpub  staff  217989 Apr 15 17:35 9.ICO
     -rw-r--r--  1 bpub  staff  217989 Apr 15 18:15 test.ICO
     $
@@ -129,7 +128,7 @@ and should not be a problem.
 ## Caveats
 
 Since details of the DWIN internal firmware are not known (by me, at
-the time of writing these scripts) the limits of file sizes is unknown.
+the time of writing these scripts) the limits of file sizes are unknown.
 In addition to 9.ICO, the firmware uses files 0_start.jpg, 1_English.jpg,
 and 2_Chinese.jpg, which provide a startup image, and raster messages in two languages for labeling fields. It is unknown what file size limits
 there are for either these files, or the individual JPEGs in 9.ICO, or the
